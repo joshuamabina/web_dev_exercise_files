@@ -6,12 +6,20 @@
 
         <br/>
 
-        <label>Align:</label>
-        <select>
-            <option selected>Center</option>
-            <option>Left</option>
-            <option>Right</option>
-        </select>
+        <form>
+            <label>Height of pyramid</label>
+            <input type="text" id="pyramidHeightInput" value="10" required />
+            
+            <label>Align:</label>
+            <select required>
+                <option selected>Center</option>
+                <option>Left</option>
+                <option>Right</option>
+            </select>
+
+            <button id="runButton">Run/print</button>
+        </form>
+
         <script src="main.js"></script>
     </body>
 </html>
