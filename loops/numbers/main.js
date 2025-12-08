@@ -1,16 +1,16 @@
 let contentEl = document.getElementById("content");
 
-const runButton = document.getElementById("runButton");
-runButton.addEventListener("click", function (e) {
+const submitButton = document.getElementById("submitButton");
+submitButton.addEventListener("click", function (e) {
     e.preventDefault();
     contentEl.innerHTML = "";
 
     const pyramidHeight = Number.parseInt(document.getElementById("pyramidHeightInput").value.trim());
 
-    runPrint(pyramidHeight);
+    printPyramid(pyramidHeight);
 });
 
-function runPrint(pyramidHeight = 10) {
+function printPyramid(pyramidHeight = 10) {
     console.log(`Pyramid height: ${pyramidHeight}`);
 
     for (let i = 1; i <= pyramidHeight; i++) {
@@ -26,4 +26,4 @@ function runPrint(pyramidHeight = 10) {
     }
 }
 
-runPrint();
+printPyramid();
