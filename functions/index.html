@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
     <title>Learning web development &middot; Functions</title>
-    <body>
+    <link href="https://cdn.jsdelivr.net/gh/joshuamabina/lightweight-css/main.css" rel="stylesheet"/>
+<body>
+    <div class="container">
         <h1>Functions</h1>
-
         <form>
-            <div>
+            <div class="form-group">
                 <label for="firstNumberInput">First number</label>
-                <input type="input" id="firstNumberInput" placeholder="First number" required>
+                <input type="input" class="form-control" id="firstNumberInput" placeholder="First number" required>
             </div>
 
             <div>
                 <label for="secondNumberInput">Second number</label>
-                <input type="input" id="secondNumberInput" placeholder="Second number" required>
+                <input type="input" class="form-control" id="secondNumberInput" placeholder="Second number" required>
             </div>
 
             <button type="submit" id="computeButton">Compute</button>
         </form>
-        <script src="main.js"></script>
-    </body>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
 </html>
