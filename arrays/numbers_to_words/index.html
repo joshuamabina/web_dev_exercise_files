@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
-<title>Learning web development &middot; Arrays</title>
-<link href="style.css" rel="stylesheet" />
+  <title>Learning web development &middot; Arrays</title>
+  <link href="https://cdn.jsdelivr.net/gh/joshuamabina/lightweight-css/main.css" rel="stylesheet" />
 
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <div id="content"></div>
+  <body>
+    <div class="container">
+      <div id="content">
+        <h4 class="text-muted">Number to words...</h4>
+      </div>
+
+      <form>
+        <div class="form-group">
+          <label for="numberInput" class="form-label">Number</label>
+          <input type="input" class="form-control" id="numberInput" placeholder="Type any number here..."
+                                                                    required>
         </div>
 
-        <div class="row">
-            <form>
-              <!-- TODO -->
-            </form>
-        </div>
+        <button id="submitButton">Submit</button>
+      </form>
     </div>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
